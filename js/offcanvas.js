@@ -26,12 +26,12 @@ jQuery(document).ready(function($) {
         $('.navbar-toggle').toggleClass('collapsed');
         $('.navbar-collapse').addClass('transition');
         $('.transition').one(transitionEvent,
-             function(e) {
-               $('.navbar-collapse').removeClass('transition');
-        });
+            function(e) {
+                $('.navbar-collapse').removeClass('transition');
+            });
     });
 
-    $('.navbar .nav a').click(function () {
+    /*$('.navbar .nav a').click(function () {
         $('.overlay').removeClass('active');
         $('body').removeClass('active');
         $('#navbar').removeClass('in');
@@ -39,12 +39,12 @@ jQuery(document).ready(function($) {
         $('.sidebar-offcanvas').removeClass('active');
         $('.navbar-toggle').addClass('collapsed');
         $('.transition').one(transitionEvent,
-             function(e) {
-               $('.navbar-collapse').removeClass('transition');
-        });
-    });
+            function(e) {
+                $('.navbar-collapse').removeClass('transition');
+            });
+    });*/
 
-    $('.overlay').swiperight(function () {
+    /*$('.overlay').swiperight(function () {
         $('.overlay').addClass('active');
         $('body').addClass('active');
         $('#navbar').addClass('in');
@@ -52,9 +52,9 @@ jQuery(document).ready(function($) {
         $('.sidebar-offcanvas').addClass('active');
         $('.navbar-toggle').removeClass('collapsed');
         $('.navbar-collapse').addClass('transition');
-    });
+    });*/
 
-    $('.overlay').swipeleft(function () {
+    /*$('.overlay').swipeleft(function () {
         $('.overlay').removeClass('active');
         $('body').removeClass('active');
         $('#navbar').removeClass('in');
@@ -62,9 +62,9 @@ jQuery(document).ready(function($) {
         $('.sidebar-offcanvas').removeClass('active');
         $('.navbar-toggle').addClass('collapsed');
         $('.transition').one(transitionEvent,
-             function(e) {
-               $('.navbar-collapse').removeClass('transition');
-        });
-    });
+            function(e) {
+                $('.navbar-collapse').removeClass('transition');
+            });
+    });*/
 
 });
